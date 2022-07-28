@@ -27,8 +27,11 @@ values to prevent all these outliers from skewing my imputations.
 Next I looked into the genre feature and found it had 1626 unique values.  The reason for this is that most movies and shows fit into multiple categories. Not only does that make
 for bad OHE it also gives to broad a range for the actual genre category.  So I decided to just use the first two genres listed (if they had two). 
 
-![image](https://user-images.githubusercontent.com/105397828/181587600-f07a617c-2244-4081-a40d-6e80896cdc16.png)
-Here we can see the spread of the imdb scores for every show and movie in our set.  Notice not alot of low scores and not alot of really high scores either.  They're generally in the range of 6-8.
+![image](https://user-images.githubusercontent.com/105397828/181642378-c5dd8f4a-8d1a-4ca1-af92-63a3a3e9f64a.png)
+
+Shows does have a slight edge in imdb score but movies are right on its heels.
+
+
 After a few more visuals to help understand my data I moved on to machine learning.
 ![image](https://user-images.githubusercontent.com/105397828/181632576-a5d5f427-a739-46a3-b87e-4cab5a1d421d.png)
 
