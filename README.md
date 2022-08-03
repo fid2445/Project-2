@@ -8,14 +8,14 @@ Can we predict how well a movie or show is going to rated based on past movies p
 Data: https://www.kaggle.com/datasets/victorsoeiro/netflix-tv-shows-and-movies
 Our data comes from the kaggle website and we start with fifteen features to analyze.  
 Data Dictionary (only of the columns we use):
-Type: Show or Movie
-Release Year = The release year
-Runtime: Length of the film in minutes
-Genres: The genre the film belongs to
-IMDB Score: Score on IMDB
-IMDB Votes: Votes on IMDB
-TMDB Popularity on TMDB
-TMDB Score: Score on TMDB
+Type: Show or Movie.
+Release Year: The release year.
+Runtime: Length of the film in minutes.
+Genres: The genre the film belongs to.
+IMDB Score: Score on IMDB.
+IMDB Votes: Votes on IMDB.
+TMDB Popularity on TMDB.
+TMDB Score: Score on TMDB.
 
 Methods
 I started by checking the shape (5806,15) of the data set and checked for missing values.  I checked for duplicates then began dropping columns with useless information.
